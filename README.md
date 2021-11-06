@@ -12,5 +12,7 @@ Would be great:
 * To use a different branch instead of ``` main ```
 * Communicate with your team leader about the project (if needed)
 
+At the end, send us a Pull Request, so we can review your branch!
+
 Due date:
-* 05/11/2021 23:59 BRT
+* 07/11/2021 23:59
