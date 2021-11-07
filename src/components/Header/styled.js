@@ -17,12 +17,10 @@ export const AnchorContainer = styled.div`
 `;
 
 export const GoogleApps = styled.img`
-vertical-align: middle;
+  vertical-align: middle;
   width: 32px;
   height: 32px;
-
-  
-`
+`;
 export const Avatar = styled.img`
   vertical-align: middle;
   width: 32px;

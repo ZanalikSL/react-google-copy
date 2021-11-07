@@ -127,10 +127,10 @@ export const LanguageDetail = styled.div`
 export const Anchor = styled.a`
   text-decoration: none;
   padding: 0 3px;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   color: #c58af9;
 
   &:hover {
     text-decoration: underline;
   }
-`
+`;

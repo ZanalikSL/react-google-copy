@@ -25,13 +25,13 @@ export const MainContent = () => {
   const [userInput, setUserInput] = useState("");
 
   const handleChangeInput = (e) => {
-    setUserInput(e.target.value)
-  }
+    setUserInput(e.target.value);
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    setUserInput('')
-  }
+    e.preventDefault();
+    setUserInput("");
+  };
 
   return (
     <MainContentDiv>
@@ -41,8 +41,8 @@ export const MainContent = () => {
       <FormContainerDiv>
         <form onSubmit={handleSubmit}>
           <TextInputContainer>
-          <img src={searchIcon} alt="Leaf Icon" />{" "}
-            <TextInput type="text" onChange={handleChangeInput}/>
+            <img src={searchIcon} alt="Leaf Icon" />{" "}
+            <TextInput type="text" onChange={handleChangeInput} />
             <UserSelectInputOption>
               <ButtonConfirmation>
                 <KeyboardDiv>

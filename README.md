@@ -1,18 +1,38 @@
-# The google react project
-For this project we need you to make the google homepage inside react.
-For that you'll need to access [here](https://impartial-primula-42a.notion.site/Google-Test-0694b54f873442309919a2bff1c159ea) the image we want in the end of the project.
+# The google react project - Bruno Leonardo Senna
 
-We need it to be:
-* Fully responsive
-* With the same colors as the image (dark theme). Try to use colorpickers for that.
-* Full react based
+## Print
 
-Would be great:
-* To commit the changes, so we can see review it well :)
-* To use a different branch instead of ``` main ```
-* Communicate with your team leader about the project (if needed)
+![image](https://user-images.githubusercontent.com/71197933/135949340-5b75e684-ca89-443d-ae7f-ca051eeedfde.png)
 
-At the end, send us a Pull Request, so we can review your branch!
+## Languages & tools
 
-Due date:
-* 07/11/2021 23:59
+- Javascript
+- React
+- Styled-components 
+
+## Live Version
+
+To deploy a live version i used surge.
+
+Surge [Link](https://young-territory.surge.sh/)
+
+## Use
+
+```bash
+# Install dependencies
+$ npm i
+
+# Start the project
+$ npm start
+
+```
+
+## Technical solution
+
+We have three components and a main page.
+
+To make the CSS look as close as possible to the Google site I thought about using the Material-UI, but I ended up changing my mind and using Styled-Components to better represent my CSS styling skills.
+
+I went to the Google page and there I found the colors and icons with Chrome's DevTools.
+
+Structure and organization I decided to keep it simple but with the possibility of scaling.
