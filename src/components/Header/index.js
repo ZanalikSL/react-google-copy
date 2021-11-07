@@ -1,20 +1,22 @@
-import { AnchorContainer, Avatar, HeaderContainer } from "./styled";
+import { Anchor, AnchorContainer, Avatar, HeaderContainer } from "./styled";
 
-import img from '../../assets/img/img_avatar.png'
+import img from "../../assets/img/img_avatar.png";
 
 export const Header = () => {
   return (
     <HeaderContainer>
       <AnchorContainer>
-        <a href="#">Gmail</a>
+        <Anchor href="#">Gmail</Anchor>
       </AnchorContainer>
       <AnchorContainer>
-        <a href="#">Imagens</a>
+        <Anchor href="#">Imagens</Anchor>
       </AnchorContainer>
       <AnchorContainer>
-        <a href="#">Bolinhas</a>
-      </AnchorContainer><a href="#"><Avatar src={img} alt="Avatar" /></a>
-      
+        <Anchor href="#">Bolinhas</Anchor>
+      </AnchorContainer>
+      <a href="#">
+        <Avatar src={img} alt="Avatar" />
+      </a>
     </HeaderContainer>
   );
 };

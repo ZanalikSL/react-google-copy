@@ -21,3 +21,13 @@ export const Avatar = styled.img`
   border-radius: 50%;
   padding: 16px;
 `
+export const Anchor = styled.a`
+  text-decoration: none;
+  color: white;
+  font: 14px/27px Roboto,RobotoDraft,Arial,sans-serif;
+
+
+  &:hover {
+    text-decoration: underline;
+  }
+`
