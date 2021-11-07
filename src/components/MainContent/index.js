@@ -3,6 +3,7 @@ import { useState } from "react";
 import logo from "../../assets/img/googlelogo_light_color_272x92dp.png";
 import keyboard from "../../assets/img/keyboard.png";
 import mic from "../../assets/img/voice-microphone.ico";
+import searchIcon from "../../assets/img/search_icon.png";
 
 import {
   Anchor,
@@ -40,7 +41,7 @@ export const MainContent = () => {
       <FormContainerDiv>
         <form onSubmit={handleSubmit}>
           <TextInputContainer>
-            <i class="fas fa-search"></i>
+          <img src={searchIcon} alt="Leaf Icon" />{" "}
             <TextInput type="text" onChange={handleChangeInput}/>
             <UserSelectInputOption>
               <ButtonConfirmation>
