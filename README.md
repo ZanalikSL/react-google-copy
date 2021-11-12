@@ -1,9 +1,5 @@
 # The google react project - Bruno Leonardo Senna
 
-## Print
-
-![image](https://user-images.githubusercontent.com/71197933/135949340-5b75e684-ca89-443d-ae7f-ca051eeedfde.png)
-
 ## Languages & tools
 
 - Javascript
